@@ -12,6 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <site.encoding>UTF-8</site.encoding>
         <junitVersion>4.12</junitVersion>
+        <assertJVersion>3.10.0</assertJVersion>
         <slf4jVersion>4.12</slf4jVersion>
         <slf4jVersion>1.7.2</slf4jVersion>
         <logbackVersion>1.2.3</logbackVersion>
@@ -28,7 +29,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.10.0</version>
+            <version>${assertJVersion}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
